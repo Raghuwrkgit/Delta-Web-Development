@@ -1,0 +1,95 @@
+<!--Tables in HTML-->
+<table>
+    <caption>Table Caption</caption>
+        <tr><!--Table row-->
+            <th>
+
+            </th><!--Table Heading-->
+        </tr>
+        <tr>
+            <td><!--Table Data-->
+
+            </td>
+        </tr>
+</table>
+
+<!--Table semantics-->
+<thead>to wrap table header</thead>
+<tbody>to wrap table body</tbody>
+<tfoot>to wrap table footer</tfoot>
+
+<!--Colspan & Rowspan Attributes-->
+<p>If cirtain Heading or table elements take more than one row and col  space then Colspan & Rowspan both are imp </p>
+<th colspan="2"></th>
+<th rowspan="2"></th>
+
+<!--Forms in HTML-->
+<form>form content</form>
+<h2>Action Attribute</h2>
+<p>Action Attribute is used to define what action needs to performed when a form is submitted or where the form data should be sent</p>
+<form action="/action.php"></form>
+<form action="/action"></form>
+
+<!--Form Elements-->
+<form action="/action">
+<h2>Input</h2>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input">Input types</a>
+<p>used create multiple form controls</p>
+<input type="text">
+<input type="password">
+<input type="number">
+<input type="time">
+<input type="color">
+</form>
+
+<h2>Placeholder</h2>
+<input type="text" placeholder="Enter Name">
+
+<h2>Label</h2>
+<p>Label element represents a caption for an item in a user interface</p>
+<label>
+    Enter your username :
+    <input type="text" placeholder="username">
+</label>
+
+<!--Usage of id and for unique identifiers-->
+<label for="password">Enter your password :</label>
+<input type="password" placeholder="enter password" id="password">
+
+<!--Button Element-->
+<h2>Button</h2>
+<button>Submit</button>
+
+<h3>Types</h3>
+<button type="submit">submit</button>
+<button type="button">do something</button>
+<button type="reset">reset</button>
+
+<h3>button using input</h3>
+<input type="submit">
+<input type="submit" value="click me">
+
+<h2>Name Attribute</h2>
+<p>Submitted with the form as name value pair</p>
+<input type="text" placeholder="enter name" name="username"/><button>sub</button>
+
+<h2>Check box</h2>
+<input type="checkbox" name="age" id="age" checked/>
+<label for="age">I am 18&plus;</label>
+
+<h2>Radio Buttons</h2>
+<input type="radio" name="friut" id="apple" value="apple">
+<label for="apple">Apple</label>
+
+<h2>Dropdown</h2>
+<select name="profession" id="profession">
+    <option value="student">Student</option>
+    <option value="dev">Developer</option>
+</select>
+
+<h2>Range</h2>
+<label for=volume">Volume</label>
+<input type="range" min="0" max="100" name="vol" step="2">
+
+<h2>Text area</h2>
+<textarea id="feedback"></textarea>

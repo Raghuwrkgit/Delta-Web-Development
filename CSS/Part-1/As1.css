@@ -1,0 +1,41 @@
+body{
+    color: wheat;
+}
+p{
+    color: #A52A2A;
+}
+P,h1,h3{
+    text-align: center;
+}
+h1{
+    color: red;
+}
+h3{
+    color: black;
+}
+body{
+    font-family: Georgia;
+}
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+button{
+    color: blueviolet;
+    background-color: white;
+}
+textarea{
+    color:#000000;
+}
+p{
+    line-height: 30px;
+}
+h4{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+label{
+    color: blue;
+}
